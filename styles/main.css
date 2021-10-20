@@ -1,0 +1,159 @@
+@import "variabels.css";
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@0;1&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Andada Pro', serif;
+  }
+
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+
+  }
+
+  #sec-1 {
+    background-image: url("/Images/background.png");
+    background-position: 0px 0px , 0px 0px;
+  }
+  #sec-2 {
+    background-color:#a9dbb8;
+  }
+  #sec-3{
+    background-color: #c6ebbe;
+  }
+  #sec-4{
+    background-color: #a9dbb8;
+    text-align: center;
+  }
+
+  button:hover{
+    background-color:#303944 ;
+  
+  }
+  button:focus{
+    outline: none;
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+  
+  }
+.container-2{
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.medlemar{
+  text-align: center;
+  font-size: 35px;
+  width: 60%;
+  height: 100%;
+}
+
+#medlemarImg{
+  border-radius: 2.5px;
+  height: auto;
+  width: 100%;
+}
+.bliMedlem{
+  text-align: center;
+  font-size: 35px;
+   width: 100%;
+}
+.text{
+  font-size: 20px;
+}
+#fotnoter{
+  font-size:20px;
+}
+#title-samarbeten{
+  font-size: 45px;
+}
+.samarbeten{
+  text-align: center;
+  width: 100%;
+  /* background-color: wheat; */
+}
+
+.flex-container{
+  margin-top: 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+.flex-container > div{
+  flex: 50%;
+  background-color: #c6ebbe;
+  margin: 20px;
+  /* padding: 30px; */
+  height: 80vh;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .container{
+  align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100%;
+   margin-top: 200px;
+   /* display: flex; */
+ }
+ button{
+  background-color:#7ca5b8 ;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  /* margin-top: 20px; */
+}
+
+}
+@media only screen and (min-width: 992px) {
+  .container{
+    align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+ }
+.header{
+ font-size: 40px;
+ align-items: center;
+ justify-content:center;
+ left: 50%;
+ margin-top: -50px;
+}
+button{
+  background-color:#7ca5b8 ;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 300px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  /* margin-top: 20px; */
+}
+
+} 
