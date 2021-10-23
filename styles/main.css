@@ -63,24 +63,34 @@
   height: auto;
   width: 100%;
 }
+
+
 .bliMedlem{
   text-align: center;
-  font-size: 35px;
-   width: 100%;
+  width: 100%;
 }
+.container-3{
+  margin-top: 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  background-color: brown;
+}
+
+
 .text{
   font-size: 20px;
 }
 #fotnoter{
   font-size:20px;
 }
-#title-samarbeten{
-  font-size: 45px;
-}
+
 .samarbeten{
   text-align: center;
   width: 100%;
-  /* background-color: wheat; */
 }
 
 .flex-container{
@@ -91,18 +101,46 @@
   text-align: center;
   justify-content: center;
   text-align: center;
-  /* margin-left: 100px;
-  margin-right: 100px; */
+
 }
 .flex-container > div{
   flex: 50%;
   background-color: #c6ebbe;
   margin: 20px;
-  /* padding: 30px; */
   height: 80vh;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.473);
 }
+.flex-container h1{
+  font-size: 30px;
+}
+.flex-container p{
+  margin: 15px;
+}
+
+#kth-logo{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+#ki-logo{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+
+}
+#uf-logo{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+
+}
+
+#title{
+  font-size: 45px;
+
+}
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
   .flex-container {
@@ -115,7 +153,7 @@
    min-height: 100vh;
    width: 100%;
    margin-top: 200px;
-   /* display: flex; */
+
  }
  button{
   background-color:#7ca5b8 ;
@@ -126,7 +164,6 @@
   margin-top: 20px;
   border: none;
   box-shadow: 2px 2px 5px black;
-  /* margin-top: 20px; */
 }
 
 }
@@ -150,10 +187,10 @@ button{
   width: 100px;
   height: 40px;
   border-radius: 15px;
-  margin-left: 300px;
+  margin-left: 280px;
   border: none;
   box-shadow: 2px 2px 5px black;
-  /* margin-top: 20px; */
+
 }
 
 } 
