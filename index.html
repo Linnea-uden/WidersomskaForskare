@@ -13,7 +13,7 @@
 <body>
     <section id="sec-1">
 
-        <nav>
+        <nav id="navbar">
             <ul>
                 <!-- <img class="logo" src="Images/widerstomska_logo.png"> -->
                 <!-- <img class="logo" src="Images/logo1.png"> -->
@@ -22,7 +22,7 @@
                 <li><a href="#sec-3">Bli Medlem</a></li>
                 <li><a href="#sec-4">Samarbeten</a></li>
                 <!-- <img class="logo" src="Images/widerstomska_logo.png"> -->
-                <img class="logo" src="/Images/logo1.png" alt="" srcset="">
+                <!-- <img class="logo" src="/Images/logo1.png" alt="" srcset=""> -->
 
             </ul>
         </nav>
@@ -64,7 +64,44 @@
             <h1 id="title">Bli medlem</h1>
 
             <div class="container-3">
+                <form action="https://formsubmit.co/linnea.uden1@gmail.com" method="POST">
+                    <label for="fname">Namn</label>
+                    <input type="text" name="name" placeholder="Ditt namn..">
+                
+                    <label for="lname">E-postaddress</label>
+                    <input type="text"  name="email" placeholder="Din mejl..">
+                
+                    <label for="Klass">Klass</label>
+                    <select id="Klass" name="Klass">
+                      <option>Din klass</option>
+                      <option value="EK19">EK19</option>
+                      <option value="EK20">EK20</option>
+                      <option value="EK21">EK21</option>
+                      <option value="NA19">NA19</option>
+                      <option value="NAA20">NAA20</option>
+                      <option value="NAB20">NAB20</option>               
+                      <option value="NAA21">NAA21</option>
+                      <option value="NAB21">NAB21</option>               
+                      <option value="TE19">TE19</option>
+                      <option value="TE20">TE20</option>
+                      <option value="TE21">TE21</option>
+                      <option value="VO19">VO19</option>                      
+                      <option value="VO20">VO20</option>
+                      <option value="VO21">VO21</option>
+                    </select>
+                    <label for="Klass">Har du varit med i en förening tidigare?</label>
+                    <select name="fråga" id="fråga">
+                        <option value="">Välj</option>
+                        <option value="Ja">Ja</option>
+                        <option value="Nej">Nej</option>
+                    </select>
+                    <label for="Klass">Vilken typ av vetenskap föredrar du?</label>
+                    <input type="text" id="vetenskap" name="vetenskap" placeholder="Typ av vetenskap..">
 
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/test/tack.html">
+                    <input type="submit" value="Skicka in">
+                  </form>
             </div>
         </div>
 
@@ -113,5 +150,5 @@
 
     </section>
 </body>
-
+<script src="main.js"></script>
 </html>

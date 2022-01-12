@@ -44,6 +44,22 @@ ul {
     float: right;
     margin-top:-18px ;
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #c6ebbe; */
+    background-color:  #40e0d0;
+
+    /* background-color:#a9dbb8; */
+
+
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
   @media (max-width: 800px) {
  nav{
    display: none;
