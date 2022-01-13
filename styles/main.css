@@ -201,12 +201,23 @@ form{
   width: 100px;
   height: 40px;
   border-radius: 15px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: 20px;
   border: none;
   box-shadow: 2px 2px 5px black;
 }
-
+.header{
+text-align: center;
+margin-top: 40px;
+font-size: 25px;
+}
+input[type=submit]{
+  width: 100%;
+}
+.bliMedlem{
+  padding-right: 10px;
+  padding-left:10px;
+}
 }
 @media only screen and (min-width: 992px) {
   .container{
